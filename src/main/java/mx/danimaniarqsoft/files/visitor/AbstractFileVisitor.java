@@ -1,4 +1,4 @@
-package mx.dads.infotec.kukulkan.visitor;
+package mx.danimaniarqsoft.files.visitor;
 
 import java.io.IOException;
 import java.nio.file.FileVisitResult;
@@ -6,7 +6,7 @@ import java.nio.file.Path;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 
-import mx.dads.infotec.kukulkan.util.FileUtil;
+import mx.danimaniarqsoft.files.util.FileUtil;
 
 public abstract class AbstractFileVisitor extends SimpleFileVisitor<Path> {
 
